@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsc && node dist/index.js",
     "dev": "prisma generate && concurrently \"tsc --watch\" \"nodemon dist/index.js\"",
     "start": "node dist/index.js",
     "build": "prisma generate &&  tsc && node dist/index.js",
