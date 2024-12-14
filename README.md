@@ -6,6 +6,7 @@
 ```npx prisma init --datasource-provider mongodb``` (replace mongodb with db of your choice)
 - Vercel Support for serverless hosting (you might have issue with deploying from the website, so use the vercel cli tool for that by running ```npx vercel```)
 - Shortcut commands -
-    - ```npm start``` - Typescript compile and run with node for production use
+    - ```npm build``` - Typescript compile and run with node for production use
     - ```npm run dev``` - Typescript compile and run with nodemon
     - ```npm lint``` - to lint your code with eslint
+    - ```npm start``` - if there are no changes in code and already compiled, direct start
